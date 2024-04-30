@@ -1,1 +1,42 @@
 /* Start coding here */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkcyan;
+  height: 10vh;
+  border: 2px solid white;
+}
+main {
+  height: 80vh;
+  display: flex;
+  background-color: orange;
+}
+.box-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  flex: 1;
+}
+.box-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  flex: 2;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: khaki;
+  height: 10vh;
+  border: 2px solid white;
+}
