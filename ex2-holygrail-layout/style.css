@@ -8,12 +8,15 @@ body {
   height: 100vh;
 }
 
-header {
-  background-color: darkcyan;
-  height: 10%;
+.adjust {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+header {
+  background-color: darkcyan;
+  height: 10%;
 }
 
 main {
@@ -22,24 +25,19 @@ main {
   background-color: orange;
 }
 
+.border-box {
+  border: 1px solid white;
+}
+
 .box-side {
-  border: 1px solid white;
   flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
+
 .box-center {
-  border: 1px solid white;
   flex: 2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
+
 footer {
   background-color: khaki;
   height: 10%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
